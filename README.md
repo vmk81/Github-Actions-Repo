@@ -16,7 +16,7 @@ Section 5: Test the Output
 1. Login to your Github repository and click on create new repository. Provide a repository name and choose the Public option. Then click on 'Create repository' button.  
    ![1-GitHub Repository](https://github.com/vmk81/Github-Actions-Repo/assets/157844406/e598f47f-9cd2-4402-ab01-2dc80dbb3145)  
 ### Section 2: Launch an EC2 instance with Linux AMI with neccesary Secutiry Groups  
-2. Navigate to your AWS console and launch an EC2 instance with Linux AMI. Details on how to launch an EC2 instance can be found in this repository.
+2. Navigate to your AWS console and launch an EC2 instance with Linux AMI. Details on how to launch an EC2 instance can be found in the repository https://github.com/vmk81/Launch-an-EC2-Instance.   
    
 3. Open the Security Groups tab and create a new Security Group by the name MyRunnerGroup. In the Inbound rules, add a new rule for HTTP port 80 and HTTPS port 443 like in the screenshot below. In the Outbound rules, add a new rule for HTTP port 80 and HTTPS port 443. These rules need to be setup for the Self hosted runner to communicate with GitHub Actions.
    ![8-Security Groups for the Runner](https://github.com/vmk81/Github-Actions-Repo/assets/157844406/3fba589d-ff79-4f66-b0bb-678cb3d1e9d8)
