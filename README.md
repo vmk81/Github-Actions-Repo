@@ -49,7 +49,7 @@ Section 5: Test the Output
     ![10-Creating directory](https://github.com/vmk81/Github-Actions-Repo/assets/157844406/1d76876f-b1c6-41d1-ae40-f4f474185899)
 
 12. Inside the .github/workflows directory, create a file called main.yml. This file will be the pipeline that will tell the runner what all to be executed. In this example yml, we will be executing a simple python script to add 2 numbers. It will run the commands specified inside the yml file.
-     ![10-Creating the Pipeline yml file](https://github.com/vmk81/Github-Actions-Repo/assets/157844406/b26029a0-59f3-4155-aa14-7098b61e3685)
+     ![10-Creating the Pipeline yml file](https://github.com/vmk81/Github-Actions-Repo/assets/157844406/16a45b8e-8007-4549-b063-68e74e3d980d)
 
 13. The trigger for this pipeline to execute is the push command (Red Arrow in the screenshot above). Any commit pushed into the main repository will be trigger. And self-hosted (Green Arrow) indicates that the jobs will run on a self-hosted runner.  
 
